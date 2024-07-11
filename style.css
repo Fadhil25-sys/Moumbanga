@@ -1,0 +1,157 @@
+
+*{
+box-sizing:border-box;
+}
+html{
+    line-height: 1.15;
+}
+body{
+    margin:0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #6c757d;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+ .about-img{
+    margin-left:-100px;
+    right:-60px;
+}
+ .btn-white{
+    background-color: #ffffff;
+    border:2px solid #ffffff 
+ }
+ .btn-blue{
+    border:2,4px solid #ffffff;
+    color:#ffffff;
+ }
+ .hero-text{
+    margin-top:150px;
+ }
+ .typed-cursor{
+    font-size:45px;
+    color:#ffffff
+ }
+ .position-absolute{
+    font-weight: 700;
+ }
+ a{
+    color:;
+    text-decoration: none;
+    background-color: transparent;
+ }
+ a:hover{
+    color:#078571;
+    text-decoration: underline;
+ }
+
+.navbar-light .navbar-nav .nav-link{
+   padding: 25px 10px;
+   color:#343a40;
+   font-weight: 500px;
+   outline:none;
+}
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link:active{
+   color:#0bceaf;
+}
+
+.blue{
+   background-color: rgb(32, 125, 248);
+   color:#ffffff;
+}
+.blue:hover{
+   background-color: rgb(255, 2555, 255);
+   color:#0f6eeb;
+   border-radius: 2px solid blue;
+}
+.progress{
+   border-radius: 10px;
+}
+.progress .progress-bar{
+   width: 0px;
+   border-radius: 10px;
+   transition: 2s;
+}
+.display-1{
+   font-size: 160px;
+   font-weight: 1000;
+}
+.position-absolute{
+   font-weight: 700;
+}
+.ex-me{
+   margin-top: 35px;
+}
+
+.service{
+   padding-bottom: 30px;
+}
+.service-icon{
+   width:60px;
+   height:60px;
+   display:flex;
+   align-items:center;
+   justify-content: center;
+   border-radius: 60px;
+}
+.service-box{
+   box-shadow: 0px 1px 7px rgba(0,0,0,0.1);
+   padding:15px;
+   padding-left: 30px;
+   padding-right: 30px;
+}
+.service-box:hover{
+   box-shadow: 0px 1px 13px rgba(27, 27, 27, 0.705);
+}
+.portfolio-item .portfolio-btn{
+   position: absolute;
+   width:0;
+   height:0;
+   top:50px;
+   left:50px;
+   border-radius: 4px;
+   opacity:0;
+   transition: 0.5s;
+}
+.portfolio-item:hover .portfolio-btn{
+   opacity:1;
+   width:calc(100% - 60%);
+   height: calc(100% -60%);
+   top:30px;
+   left:30px;
+   
+}
+.testimonial-carousel .text-center{
+   background-color: #eaecf0d0;
+   border-radius: 20px;
+   margin:20px;
+
+}
+.testimonial-carousel .owl-dots{
+   margin-top: 25px;
+   text-align: center;
+}
+.testimonial-carousel .owl-dot{
+   display:inline-block;
+   margin: 0 5px;
+   width:12px;
+   height: 12px;
+   border-radius: 10px;
+   background: #dddddd;
+}
+.testimonial-carousel .owl-dot.active{
+   background: #0bceaf;
+}
+
+.text-red{
+   color:rgb(3, 42,148);
+}
+.text-red:hover{
+   color:rgb(17, 238, 65);
+}
+
+ 
